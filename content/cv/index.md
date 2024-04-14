@@ -2,4 +2,4 @@
 title = ""
 +++
 
-Coming Soon and so on
+Coming Soon
