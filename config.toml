@@ -9,7 +9,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
 
 [params]
   description = "Marcus Mohall"
-  dark = "auto"
+  dark = "on" # can also be "auto" 
   highlight = true
 
 [menu]
