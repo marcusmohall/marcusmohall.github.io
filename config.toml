@@ -6,7 +6,6 @@ enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 ignoreErrors = ["error-missing-instagram-accesstoken"]
-publishDir = "docs"
 
 [params]
   description = "Marcus Mohall"
