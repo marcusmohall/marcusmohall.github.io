@@ -1,0 +1,54 @@
+baseURL = "https://example.com"
+title = "Marcus Mohall"
+theme = "etch"
+languageCode = "en-US"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+ignoreErrors = ["error-missing-instagram-accesstoken"]
+
+[params]
+  description = "Marcus Mohall"
+  dark = "auto"
+  highlight = true
+
+[menu]
+  
+   [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 5
+    
+#  [[menu.main]]
+#    identifier = "posts"
+#    name = "posts"
+#    title = "posts"
+#    url = "/posts/"
+#    weight = 10
+    
+	[[menu	.main]]
+    identifier = "CV"
+    name = "CV"
+    title = "CV"
+    url = "/CV/"
+    weight = 15
+
+	[[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    title = "contact"
+    url = "/contact/"
+    weight = 20
+
+    
+[permalinks]
+  posts =  "/:year/:month/:title/"
+
+[markup.goldmark.renderer]
+  # Allow HTML in Markdown
+  unsafe = true
+
+  [markup.tableOfContents]
+    ordered = true
