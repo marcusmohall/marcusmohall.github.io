@@ -2,4 +2,4 @@
 title = ""
 +++
 
-marcus.mohall@liu.se
+marcus.mohall [at] liu.se
