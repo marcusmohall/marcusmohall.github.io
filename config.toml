@@ -14,12 +14,12 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
 
 [menu]
   
-   [[menu.main]]
-    identifier = "about"
-    name = "about"
-    title = "about"
-    url = "/about/"
-    weight = 5
+#   [[menu.main]]
+#    identifier = "about"
+#    name = "about"
+#    title = "about"
+#    url = "/about/"
+#    weight = 5
     
 #  [[menu.main]]
 #    identifier = "posts"
@@ -28,12 +28,12 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
 #    url = "/posts/"
 #    weight = 10
     
-	[[menu	.main]]
-    identifier = "CV"
-    name = "CV"
-    title = "CV"
-    url = "/CV/"
-    weight = 15
+#	[[menu	.main]]
+#    identifier = "CV"
+#    name = "CV"
+#    title = "CV"
+#    url = "/CV/"
+#    weight = 15
 
 	[[menu.main]]
     identifier = "contact"
