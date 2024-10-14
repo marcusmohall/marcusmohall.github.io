@@ -36,9 +36,9 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
 #    weight = 15
 
 	[[menu.main]]
-    identifier = "Contact info"
-    name = "Contact info"
-    title = "Contact info"
+    identifier = "contact"
+    name = "contact"
+    title = "contact"
     url = "/contact/"
     weight = 20
 
