@@ -1,5 +1,4 @@
 <!-- <h3>{{ i18n "posts.title" }}</h3> -->
-{{ .Date.Format "2006-01-02" }}
 <section id="posts">
   {{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
     <article>
