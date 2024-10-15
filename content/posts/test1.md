@@ -1,6 +1,6 @@
 ---
 title: "Just a test post"
-date: 2024-10-14
+date: {{ dateFormat "2024-10-15" .Date }}
 draft: false
 ---
 
