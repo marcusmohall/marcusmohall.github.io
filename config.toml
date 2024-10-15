@@ -29,7 +29,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
 #    url = "/posts/"
 #    weight = 10
     
-#	[[menu	.main]]
+#	[[menu.main]]
 #    identifier = "CV"
 #    name = "CV"
 #    title = "CV"
@@ -48,7 +48,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
     name = "publications"
     title = "publications"
     url = "/publications/"
-    weight = 20
+    weight = 15
 
 [permalinks]
   posts =  "/:year/:month/:title/"
