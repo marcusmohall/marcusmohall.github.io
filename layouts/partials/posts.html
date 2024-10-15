@@ -3,7 +3,7 @@
   {{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
     <article>
       <h2>{{ .Title }}</h2>
-      <p>{{ .Date.Format "January 1, 2001" }}</p>
+      <p>{{ .time.Format "January 1, 2001" }}</p>
       <!-- <p>{{ .Date }}</p> -->
       {{ .Summary }}
       <a href="{{ .Permalink }}">Read more</a>
