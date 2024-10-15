@@ -7,7 +7,7 @@ Richard, Å., Mohall, M., & Molina, I. “Capturing Displacement: A Dialectical 
 
 Mohall, M. & Wikman, P. “Kollektivtrafiken: Nyliberala förhoppningar och grå reformer i Storstockholms lokaltrafik”, forthcoming in _Grå reformer, gröna drömmar: Omregleringen i Sverige, 1988–1991_, edited by Andreas Mørkved Hellenes and Per Lundin. Lund: Nordic Academic Press.
 
-Wikman, Pär & Mohall, Marcus. 2022. “Translating Space: The rise and fall of central place theory and planning-geography in Sweden”, in _Socio-Spatial Theory in Nordic Geography: Intellectual Histories and Critical Interventions_, edited by Peter Jakobsen, Erik Jönsson, and Henrik Gutzon Larsen. Cham: Springer. [Link](https://link.springer.com/chapter/10.1007/978-3-031-04234-8_3)
+Wikman, P. & Mohall, M. 2022. “Translating Space: The rise and fall of central place theory and planning-geography in Sweden”, in _Socio-Spatial Theory in Nordic Geography: Intellectual Histories and Critical Interventions_, edited by Peter Jakobsen, Erik Jönsson, and Henrik Gutzon Larsen. Cham: Springer. [Link](https://link.springer.com/chapter/10.1007/978-3-031-04234-8_3)
 
 Mohall, M. 2022. “Transportation justice and the limits to the right to mobility in Clayton County’s transit struggles”, Urban Matters, 1 (4). [Link](https://urbanmattersjournal.com/transportation-justice-and-the-limits-to-the-right-to-mobility-in-clayton-countys-transit-struggles/)
 
