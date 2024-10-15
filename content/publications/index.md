@@ -5,7 +5,7 @@ title = ""
 ### Academic publications
 Richard, Å., Mohall, M., & Molina, I. “Capturing Displacement: A Dialectical Mixed-Methods Approach to the Study of Renoviction – a Case from Sweden”. Forthcoming in _International Journal of Urban and Regional Research_.
 
-Mohall, M. & Wikman, P. “Kollektivtrafiken: Nyliberala förhoppningar och grå reformer i Storstockholms lokaltrafik”, forthcoming in _Grå reformer, gröna drömmar: Omregleringen i Sverige, 1988–1991_, edited by Andreas Mørkved Hellenes and Per Lundin. Lund: Nordic Academic Press.
+Mohall, M. & Wikman, P. “Kollektivtrafiken: Nyliberala förhoppningar och grå reformer i Storstockholms Lokaltrafik”, forthcoming in _Grå reformer, gröna drömmar: Omregleringen i Sverige, 1988–1991_, edited by Andreas Mørkved Hellenes and Per Lundin. Lund: Nordic Academic Press.
 
 Wikman, P. & Mohall, M. 2022. “Translating Space: The rise and fall of central place theory and planning-geography in Sweden”, in _Socio-Spatial Theory in Nordic Geography: Intellectual Histories and Critical Interventions_, edited by Peter Jakobsen, Erik Jönsson, and Henrik Gutzon Larsen. Cham: Springer. [Link](https://link.springer.com/chapter/10.1007/978-3-031-04234-8_3)
 
