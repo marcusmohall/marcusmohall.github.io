@@ -1,6 +1,6 @@
 ---
-title: "A test post"
-date: 2024-10-13
+title: "Just a test post"
+date: 2024-10-12
 draft: false
 ---
 
