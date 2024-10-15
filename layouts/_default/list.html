@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{- partial "posts.html" . -}}
+<section class="posts">
+  {{ range .Site.RegularPages }}
+    <article class="post">
+      <header class="post-header">
+        <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <p class="post-meta">
+          <time datetime="{{ .Date.Format "YYYY-MM-DD" }}">{{ .Date.Format "MMM D, YYYY" }}</time>
+        </p>
+      </header>
+      <div class="post-content">
+        {{ .SummaryHTML }}
+        <a href="{{ .Permalink }}" class="read-more">Read more</a>
+      </div>
+    </article>
+  {{ end }}
+</section>
+{{ end }}
