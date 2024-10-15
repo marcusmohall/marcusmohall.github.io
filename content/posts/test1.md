@@ -1,6 +1,7 @@
 ---
-title: My First Post
-date: 2024-10-15
+title: "Hugo_create-new-post"
+date: 2024-10-14T04:10:42Z
+draft: false
 ---
 
 ## Introduction
