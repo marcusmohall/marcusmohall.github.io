@@ -1,7 +1,7 @@
 <section id="posts">
   {{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
     <article>
-      <h2>{{ .Title }}</h2>
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
       <p>{{ .Date }}</p>
       {{ .Content }}
     </article>
