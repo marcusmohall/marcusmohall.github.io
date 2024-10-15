@@ -4,6 +4,6 @@ date: {{ dateFormat "2024-10-13" .Date }}
 draft: false
 ---
 
-## Introduction
+## Introductions
 
 This is **bold** text, and this is *emphasized* text.
