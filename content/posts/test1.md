@@ -1,5 +1,5 @@
 ---
-title: "Time"
+title: "Times"
 date: 2024-10-11
 draft: false
 ---

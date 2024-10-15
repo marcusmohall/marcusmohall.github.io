@@ -2,7 +2,8 @@
   {{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
     <article>
       <h2>{{ .Title }}</h2>
-      {{ time.Format "Monday, Jan 2, 2006" "2015-01-21" }}
+      {{ time.Format "Jan 2, 2006" "2015-01-21" }}
+      <br>
       {{ .Summary }}
       <a href="{{ .Permalink }}">Read more</a>
     </article>
