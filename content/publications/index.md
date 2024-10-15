@@ -20,7 +20,7 @@ Mohall, M. “Den långa kampen om arbetsvillkor på SL”, _Flamman_, April 27,
 
 Magnusson, D., Mohall, M., Rohracher, H. & Trygg, K. “Vallastaden: Lärdomar från ett unikt stadsutvecklingsprojekt”, _PLAN_, #4, 2023.
 
-Mohall, M. "Den extraherande staden", _Brand_, #2-3, 2022.
+Mohall, M. "Den extraherande staden", _Brand_, #2-3, 2022. [Link](https://www.dropbox.com/scl/fi/gl9rgjgwuqjls7122lm3v/Mohall_Extraktion.pdf?rlkey=tlgnwpbmpcswkjwnseh0eaqn4&dl=0)
 
 
 
