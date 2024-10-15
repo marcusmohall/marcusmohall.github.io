@@ -1,6 +1,6 @@
 ---
-title: "Hugo_create-new-post"
-date: 2024-10-14T04:10:42Z
+title: "Just a test post"
+date: 2024-10-14
 draft: false
 ---
 
