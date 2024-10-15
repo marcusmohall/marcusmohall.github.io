@@ -1,11 +1,10 @@
 <section id="posts">
-  {{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
     <article>
       <h2>{{ .Title }}</h2>
       <p>{{ .Date }}</p>
       <br>
-      {{ .Summary }}
-      <a href="{{ .Permalink }}">Read more</a>
+      {{ .Content }}
     </article>
-  {{- end }}
+  {{ end }}
 </section>
