@@ -1,6 +1,11 @@
 <h3>{{ i18n "posts.title" }}</h3>
 <section id="posts">
   {{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
-    {{ .Render "article" }}
+    <article>
+      <h2>{{ .Title }}</h2>
+      <p>{{ .Date }}</p>
+      {{ .Summary }}
+      <a href="{{ .Permalink }}">Read more</a>
+    </article>
   {{- end }}
 </section>
