@@ -11,7 +11,7 @@ Wikman, P. & Mohall, M. 2022. “Translating Space: The rise and fall of central
 
 Mohall, M. 2022. “Transportation justice and the limits to the right to mobility in Clayton County’s transit struggles”, _Urban Matters_, 1 (4). [Link](https://urbanmattersjournal.com/transportation-justice-and-the-limits-to-the-right-to-mobility-in-clayton-countys-transit-struggles/)
 
-Mohall, M. 2021. _An infrastructure of freedom: Atlanta, race, and the struggle over public transportation in the capitalist city_. Geographica 31, Department of Social and Economic Geography, Uppsala. [Link](https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-449492)
+Mohall, M. 2021. _An infrastructure of freedom: Atlanta, race, and the struggle over public transportation in the capitalist city_. Dissertation, Department of Human Geography, Uppsala University. [Link](https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-449492)
 
 Mohall, M. 2019. Review of Rights in Transit: Public Transportation and the Right to the City in California’s East Bay by Kafuih Attoh. _Urban Geography_, 40 (10): 1618–1619. [Link](https://doi.org/10.1080/02723638.2019.1674057)
 
