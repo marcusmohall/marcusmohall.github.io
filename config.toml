@@ -43,6 +43,13 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
     url = "/contact/"
     weight = 20
 
+	[[menu.main]]
+    identifier = "publications"
+    name = "publications"
+    title = "publications"
+    url = "/publications/"
+    weight = 20
+
 [permalinks]
   posts =  "/:year/:month/:title/"
 
