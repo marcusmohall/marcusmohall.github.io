@@ -9,7 +9,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
 
 [params]
   description = "Marcus Mohall"
-  dark = "on" # can also be "auto" 
+  dark = "auto" # can also be "auto" 
   highlight = true
   date_format = "02 Jan 2006"
 
