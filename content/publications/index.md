@@ -2,7 +2,7 @@
 title = ""
 +++
 
-### Academic publications
+### Academic publications (test)
 Richard, Å., Mohall, M., & Molina, I. “Capturing Displacement: A Dialectical Mixed-Methods Approach to the Study of Renoviction – a Case from Sweden”. Forthcoming in _International Journal of Urban and Regional Research_.
 
 Mohall, M. & Wikman, P. “Kollektivtrafiken: Nyliberala förhoppningar och grå reformer i Storstockholms Lokaltrafik”, forthcoming in _Grå reformer, gröna drömmar: Omregleringen i Sverige, 1988–1991_, edited by Andreas Mørkved Hellenes and Per Lundin. Lund: Nordic Academic Press.
