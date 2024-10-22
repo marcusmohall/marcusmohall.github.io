@@ -1,5 +1,0 @@
-+++
-title = "CV"
-+++
-
-Coming soon
