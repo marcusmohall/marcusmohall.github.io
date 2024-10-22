@@ -1,5 +1,5 @@
 +++
-title = ""
+title = "CV"
 +++
 
 Coming soon
