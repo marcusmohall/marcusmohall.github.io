@@ -8,7 +8,7 @@ pygmentsUseClasses = true
 ignoreErrors = ["error-missing-instagram-accesstoken"]
 
 [params]
-  description = "Personal website for Marcus Mohall, containing info about academic publications"
+  description = "Personal website for Marcus Mohall, mainly contains info about academic publications"
   dark = "auto" # can also be "auto" 
   highlight = true
   date_format = "02 Jan 2006"
