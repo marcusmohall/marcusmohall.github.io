@@ -1,4 +1,8 @@
 {{ define "main" }}
 {{ .Content }}
 <!-- {{- partial "posts.html" . -}} -->
+
+{{ if .Title }}
+<h1>{{ .Title }}</h1>
+
 {{ end }}
