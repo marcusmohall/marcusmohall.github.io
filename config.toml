@@ -6,6 +6,7 @@ enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 ignoreErrors = ["error-missing-instagram-accesstoken"]
+enableRobotsTXT = true
 
 [params]
   description = "Personal website for Marcus Mohall, mainly contains info about academic publications"
@@ -59,6 +60,3 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
 
   [markup.tableOfContents]
     ordered = true
-
-# Required if you want to render robots.txt template
-enableRobotsTXT = true
