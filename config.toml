@@ -59,3 +59,6 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
 
   [markup.tableOfContents]
     ordered = true
+
+# Required if you want to render robots.txt template
+enableRobotsTXT = true
