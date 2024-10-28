@@ -1,7 +1,7 @@
-+++
-title = "Publications"
-description = "This page provides an overview of my publications, including both academic publications and public writing"
-+++
+---
+title: "Publications"
+description:"This page provides an overview of my publications, including both academic publications and public writing"
+---
 
 ### Academic publications
 Richard, Å., Mohall, M., & Molina, I. “Capturing Displacement: A Dialectical Mixed-Methods Approach to the Study of Renoviction – a Case from Sweden”. Forthcoming in _International Journal of Urban and Regional Research_.
