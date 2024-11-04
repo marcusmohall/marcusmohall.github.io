@@ -9,7 +9,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
 enableRobotsTXT = true
 
 [params]
-  description = "Personal website for Marcus Mohall, mainly contains info about academic publications"
+  description = "Personal website for Marcus Mohall. Political economy of (public) transportation, housing, and urban planning and policy more broadly."
   dark = "auto" # can also be "auto" 
   highlight = true
   date_format = "02 Jan 2006"
