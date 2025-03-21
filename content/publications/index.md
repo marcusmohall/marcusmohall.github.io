@@ -4,7 +4,7 @@ description: "This page provides an overview of my publications, including both 
 ---
 
 ### Academic publications
-Richard, Å., Mohall, M., & Molina, I. “Capturing Displacement: A Dialectical Mixed-Methods Approach to the Study of Renoviction – a Case from Sweden”. Forthcoming in _International Journal of Urban and Regional Research_.
+Richard, Å., Mohall, M., & Molina, I. 2025. “Capturing Displacement: A Dialectical Mixed-Methods Approach to the Study of Renoviction – a Case from Sweden”. _International Journal of Urban and Regional Research_. [Link](https://doi.org/10.1111/1468-2427.13318)
 
 Mohall, M. & Wikman, P. “Kollektivtrafiken: Nyliberala förhoppningar och grå reformer i Storstockholms Lokaltrafik”, forthcoming in _Grå reformer och grön omställningsiver: Socio-tekniska omregleringar i Sverige, 1988–1991_, edited by Andreas Mørkved Hellenes, Martin Hultman and Per Lundin. Lund: Nordic Academic Press.
 
