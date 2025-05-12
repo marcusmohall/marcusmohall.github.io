@@ -16,7 +16,9 @@ Mohall, M. 2021. _An infrastructure of freedom: Atlanta, race, and the struggle 
 
 Mohall, M. 2019. Review of Rights in Transit: Public Transportation and the Right to the City in California’s East Bay by Kafuih Attoh. _Urban Geography_, 40 (10): 1618–1619. [Link](https://doi.org/10.1080/02723638.2019.1674057)
 
-### Public writing
+### Selected public writing
+Mohall, M. "Klimatrealism på de utmattades jord", _Brand_, #2, 2025.
+
 Mohall, M. “Den långa kampen om arbetsvillkor på SL”, _Flamman_, April 27, 2023. [Link](https://www.flamman.se/den-langa-kampen-om-arbetsvillkor-pa-sl/)
 
 Magnusson, D., Mohall, M., Rohracher, H. & Trygg, K. “Vallastaden: Lärdomar från ett unikt stadsutvecklingsprojekt”, _PLAN_, #4, 2023.
