@@ -4,6 +4,7 @@ theme = "etch"
 languageCode = "en-US"
 enableInlineShortcodes = true
 capitalizeListTitles = true # Capitalize first letter etc.
+titleCaseStyle = "firstupper" # Capitalize first letter etc.
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 ignoreErrors = ["error-missing-instagram-accesstoken"]
@@ -47,8 +48,8 @@ enableRobotsTXT = true
 
 	[[menu.main]]
     identifier = "publications"
-    name = "publications"
-    title = "publications"
+    name = "Publications"
+    title = "Publications"
     url = "/publications/"
     weight = 15
 
