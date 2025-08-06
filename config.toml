@@ -9,7 +9,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
 enableRobotsTXT = true
 
 [params]
-  description = "Personal website for Marcus Mohall. Political economy of (public) transportation, housing, and urban planning and policy more broadly."
+  description = "Website for Marcus Mohall. Political economy of (public) transportation, housing, and urban planning and policy more broadly."
   dark = "auto" # can also be "auto" 
   highlight = true
   date_format = "02 Jan 2006"
@@ -39,14 +39,14 @@ enableRobotsTXT = true
 
 	[[menu.main]]
     identifier = "contact"
-    name = "contact"
+    name = "Contact"
     title = "contact"
     url = "/contact/"
     weight = 20
 
 	[[menu.main]]
     identifier = "publications"
-    name = "publications"
+    name = "Publications"
     title = "publications"
     url = "/publications/"
     weight = 15
