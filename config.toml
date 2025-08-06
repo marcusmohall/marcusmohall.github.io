@@ -45,9 +45,9 @@ enableRobotsTXT = true
     weight = 20
 
 	[[menu.main]]
-    identifier = "publications"
+    identifier = "Publications"
     name = "Publications"
-    title = "publications"
+    title = "Publications"
     url = "/publications/"
     weight = 15
 
