@@ -1,6 +1,6 @@
 baseURL = "https://marcusmohall.github.io"
 title = "Marcus Mohall"
-theme = "etch"
+theme = "etchcustomized"
 languageCode = "en-US"
 enableInlineShortcodes = true
 #capitalizeListTitles = true # Capitalize first letter etc.
