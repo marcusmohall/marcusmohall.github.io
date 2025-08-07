@@ -1,3 +1,7 @@
 nav a {
   text-transform: none !important;
 }
+
+.section-title {
+  text-transform: capitalize;
+}
