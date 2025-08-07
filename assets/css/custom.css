@@ -1,0 +1,3 @@
+header#banner nav ul li a {
+    text-transform: capitalize !important;
+}
