@@ -1,3 +1,4 @@
-nav a {
-  text-transform: none !important;
+/* Capitalize headings like "Contact" */
+h1, h2, h3, h4, h5, h6, .menu a {
+    text-transform: capitalize;
 }
