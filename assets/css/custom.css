@@ -1,3 +1,8 @@
 header#banner nav ul li a {
   text-transform: capitalize !important;
 }
+
+
+.nav-link {
+  text-transform: capitalize !important;
+}
