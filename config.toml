@@ -40,14 +40,14 @@ enableRobotsTXT = true
 #    weight = 15
 
 	[[menu.main]]
-    identifier = "contact"
+    identifier = "Contact"
     name = "Contact"
     title = "Contact"
     url = "/contact/"
     weight = 20
 
 	[[menu.main]]
-    identifier = "publications"
+    identifier = "Publications"
     name = "Publications"
     title = "Publications"
     url = "/publications/"
