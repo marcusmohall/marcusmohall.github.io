@@ -2,3 +2,7 @@
 h1, h2, h3, h4, h5, h6, .menu a {
     text-transform: capitalize;
 }
+
+header#banner nav ul li a {
+    text-transform: capitalize !important;
+}
