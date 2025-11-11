@@ -7,7 +7,7 @@ description: "This page provides an overview of my publications, including both 
 
 Richard, Å., Mohall, M., & Molina, I. 2025. “Capturing Displacement: A Dialectical Mixed-Methods Approach to the Study of Renoviction – a Case from Sweden”. _International Journal of Urban and Regional Research_, 49 (4): 852-875. [Link](https://doi.org/10.1111/1468-2427.13318)
 
-Mohall, M. & Wikman, P. 2025. “Kollektivtrafiken: Nyliberala förhoppningar och grå reformer i marknadiseringen av Storstockholms Lokaltrafik”, in _Grå reformer och gröna omställningar: Omregleringar av sociotekniska system i Sverige runt 1990_, edited by Andreas Mørkved Hellenes, Per Lundin and Martin Hultman. Lund: Nordic Academic Press. [Link](https://www.dropbox.com/scl/fi/7th7ndg1o7uf4mubv0950/Mohall_Wikman_Kollektivtrafiken_2025.pdf?rlkey=b4aus8cc7jt5jzcefjfol5acf&dl=0)
+Mohall, M. & Wikman, P. 2025. “Kollektivtrafiken: Nyliberala förhoppningar och grå reformer i marknadiseringen av Storstockholms Lokaltrafik”, in _Grå reformer och gröna omställningar: Omregleringar av sociotekniska system i Sverige runt 1990_, edited by Andreas Mørkved Hellenes, Per Lundin and Martin Hultman. Lund: Nordic Academic Press. [Link](https://doi.org/10.21525/kriterium.72.f)
 
 <!---
 --->
