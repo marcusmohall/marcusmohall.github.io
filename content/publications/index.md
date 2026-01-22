@@ -1,6 +1,5 @@
 ---
-title: "Publications"
-show_title: false
+title: ""
 description: "This page provides an overview of my publications, including both academic publications and public writing"
 ---
 
