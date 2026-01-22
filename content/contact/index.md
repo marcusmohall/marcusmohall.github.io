@@ -1,5 +1,5 @@
 +++
-title = "Contact"
+title = ""
 description = "This page provides some basic contact details"
 +++
 
