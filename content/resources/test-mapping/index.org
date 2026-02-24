@@ -2,6 +2,9 @@
 
 * Basic mapping instructions
 
+** 1. Inledning
+Detta dokument innehåller vägledning och tips för användning av GIS-mjukvaran ArcGIS Pro, lagring av geodata samt användning av korrekt språkbruk och terminologi i GIS-labbrapporter och liknande dokument.
+
 Some text here.
 
 {{< figure src="./saveproject.png" title="Figure 1. Creating a new ArcGIS Pro project" width="400px" alt="Creating a new ArcGIS Pro project" >}}
