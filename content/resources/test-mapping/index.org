@@ -7,7 +7,9 @@ Detta dokument innehåller vägledning och tips för användning av GIS-mjukvara
 
 ** 2. Hantera geodata och ArcGIS Pro-projekt
 Samtliga filer och projekt som du använder i ditt arbete med ArcGIS Pro ska du spara på det så kallade Fillagret som tillhandahålls av LiU för alla studenter och anställda. Information om Fillagret hittar du via denna länk. 
+
 Du hittar fillagret genom att klicka på den gula mappen nere i menyraden, klicka på ”This PC/Den här datorn” och sedan på Ditt LiU-ID on fillager.liu.se (X:). Observera att OneDrive alltså inte ska användas för arbete med GIS. 
+
 När du arbetar med GIS-projekt finns det tre viktiga regler att hålla koll på:
 
 1) Fil- och mappnamn ska endast innehålla följande tecken: bokstäverna A-Z (även a-z går bra), siffror eller understreck. Tecken så som exempelvis bokstäverna Å, Ä och Ö, mellanslag eller tecken så som utropstecken (!), asterisk (*) eller procent (%) får inte användas. Användningen av sådana tecken kan leda till problem så som att filer inte går att spara eller att vissa GIS-analyser inte går att genomföra. 
