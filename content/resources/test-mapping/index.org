@@ -1,3 +1,5 @@
+# Outline of some basic mapping instructions
+
 * Basic mapping instructions
 
 Some text here.
