@@ -4,7 +4,11 @@
         <ul>
             {{ range .Site.Menus.main.ByWeight -}}
             <li>
-                {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name | humanize -}}</a>{{ .Post }}
+                {{ .Pre }}
+                <a href="{{ .URL }}" title="{{ .Title }}">
+                    {{ .Name | humanize }}
+                </a>
+                {{ .Post }}
             </li>
             {{- end }}
         </ul>
