@@ -1,6 +1,6 @@
 ---
 title: "Writing Tips"
-date:
+date: ""
 ---
 
 Text here
