@@ -71,4 +71,4 @@ section = ["HTML", "RSS"]
 [services]
   [services.rss]
   # Set to -1 for unlimited, or e.g. 20 items:
-  limit = 20
+  limit = 100
