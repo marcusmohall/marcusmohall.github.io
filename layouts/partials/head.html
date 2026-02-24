@@ -6,14 +6,18 @@
     <meta name="description" content="{{ . }}">
   {{- end }}
 
-  {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
+  {{ printf `%s` ("favicon.ico" | absURL) | safeHTML }}
 
   {{ with .OutputFormats.Get "rss" -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ printf `%s` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{- end }}
 
-  {{/* Build the theme stylesheet (Etch original logic) */}}
+  {{/* ----------------------------
+       Build the theme stylesheet
+       (same logic as Etch original)
+     ---------------------------- */}}
   {{ $resources := slice -}}
+
   {{ $resources = $resources | append (resources.Get "css/main.css") -}}
   {{ $resources = $resources | append (resources.Get "css/min770px.css") -}}
 
@@ -27,12 +31,16 @@
   {{ end -}}
 
   {{ $css := $resources | resources.Concat "css/style.css" | minify -}}
-  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
 
-  {{/* ADDITION: build and include your custom CSS from assets/ */}}
+  {{/* -------------------------------------------
+       NEW: Build and include your custom CSS
+       from assets/css/custom.css
+       This guarantees it loads AFTER the theme CSS.
+     ------------------------------------------- */}}
   {{ with resources.Get "css/custom.css" }}
-    {{ $custom := . | minify }}
-    <link rel="stylesheet" href="{{ $custom.RelPermalink }}">
+    {{ $built := . | minify }}
+    {{ printf `<link rel="stylesheet" href="%s">` $built.RelPermalink | safeHTML }}
   {{ end }}
 
   <link rel="canonical" href="{{ .Permalink }}" />
