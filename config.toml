@@ -54,6 +54,11 @@ enableRobotsTXT = true
     url = "/publications/"
     weight = 15
 
+  [[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 20
+
 [permalinks]
   posts =  "/:year/:month/:title/"
 
@@ -63,3 +68,12 @@ enableRobotsTXT = true
 
   [markup.tableOfContents]
     ordered = true
+
+[outputs]
+home    = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+
+[services]
+  [services.rss]
+  # Set to -1 for unlimited, or e.g. 20 items:
+  limit = 20
