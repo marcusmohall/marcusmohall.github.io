@@ -33,7 +33,7 @@ enableRobotsTXT = true
 #    url = "/CV/"
 #    weight = 15
 
-[menu.main]]
+[[menu.main]]
 identifier = "Contact"
 name = "Contact"
 title = "Contact"
