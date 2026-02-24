@@ -19,20 +19,6 @@ enableRobotsTXT = true
 
 [menu]
   
-#   [[menu.main]]
-#    identifier = "about"
-#    name = "about"
-#    title = "about"
-#    url = "/about/"
-#    weight = 5
-    
-#	[[menu.main]]
-#    identifier = "CV"
-#    name = "CV"
-#    title = "CV"
-#    url = "/CV/"
-#    weight = 15
-
 [[menu.main]]
 identifier = "Contact"
 name = "Contact"
