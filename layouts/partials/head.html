@@ -1,48 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  {{ with .Site.Params.description -}}
-    <meta name="description" content="{{ . }}">
-  {{- end }}
-
-  {{ printf `%s` ("favicon.ico" | absURL) | safeHTML }}
-
-  {{ with .OutputFormats.Get "rss" -}}
-    {{ printf `%s` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-  {{- end }}
-
-  {{/* ----------------------------
-       Build the theme stylesheet
-       (same logic as Etch original)
-     ---------------------------- */}}
-  {{ $resources := slice -}}
-
-  {{ $resources = $resources | append (resources.Get "css/main.css") -}}
-  {{ $resources = $resources | append (resources.Get "css/min770px.css") -}}
-
-  {{ $dark := .Site.Params.dark | default "auto" -}}
-  {{ if not (eq $dark "off") -}}
-    {{ $resources = $resources | append (resources.Get "css/dark.css" | resources.ExecuteAsTemplate "dark.css" .) -}}
-  {{ end -}}
-
-  {{ if .Site.Params.highlight -}}
-    {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
-  {{ end -}}
-
-  {{ $css := $resources | resources.Concat "css/style.css" | minify -}}
-  {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
-
-  {{/* -------------------------------------------
-       NEW: Build and include your custom CSS
-       from assets/css/custom.css
-       This guarantees it loads AFTER the theme CSS.
-     ------------------------------------------- */}}
-  {{ with resources.Get "css/custom.css" }}
-    {{ $built := . | minify }}
-    {{ printf `<link rel="stylesheet" href="%s">` $built.RelPermalink | safeHTML }}
-  {{ end }}
-
-  <link rel="canonical" href="{{ .Permalink }}" />
-  <title>{{ .Title }}</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+  </style>
 </head>
+<body>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;meta charset="utf-8"&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  {{ with .Site.Params.description -}}</span></p>
+<p class="p1"><span class="s1">    &lt;meta name="description" content="{{ . }}"&gt;</span></p>
+<p class="p1"><span class="s1">  {{- end }}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  {{/* favicon */}}</span></p>
+<p class="p1"><span class="s1">  {{ printf `&lt;link rel="shortcut icon" href="%s"&gt;` ("favicon.ico" | absURL) | safeHTML }}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  {{/* RSS link */}}</span></p>
+<p class="p1"><span class="s1">  {{ with .OutputFormats.Get "rss" -}}</span></p>
+<p class="p1"><span class="s1">    {{ printf `&lt;link rel="%s" type="%s" href="%s" title="%s"&gt;` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}</span></p>
+<p class="p1"><span class="s1">  {{- end }}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  {{/* Build Etch CSS bundle */}}</span></p>
+<p class="p1"><span class="s1">  {{ $resources := slice -}}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  {{ $resources = $resources | append (resources.Get "css/main.css") -}}</span></p>
+<p class="p1"><span class="s1">  {{ $resources = $resources | append (resources.Get "css/min770px.css") -}}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  {{ $dark := .Site.Params.dark | default "auto" -}}</span></p>
+<p class="p1"><span class="s1">  {{ if not (eq $dark "off") -}}</span></p>
+<p class="p1"><span class="s1">    {{ $resources = $resources | append (resources.Get "css/dark.css" | resources.ExecuteAsTemplate "dark.css" .) -}}</span></p>
+<p class="p1"><span class="s1">  {{ end -}}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  {{ if .Site.Params.highlight -}}</span></p>
+<p class="p1"><span class="s1">    {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}</span></p>
+<p class="p1"><span class="s1">  {{ end -}}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  {{ $css := $resources | resources.Concat "css/style.css" | minify -}}</span></p>
+<p class="p1"><span class="s1">  {{ printf `&lt;link rel="stylesheet" href="%s"&gt;` $css.RelPermalink | safeHTML }}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  {{/* Your custom CSS (Hugo Pipes) */}}</span></p>
+<p class="p1"><span class="s1">  {{ with resources.Get "css/custom.css" }}</span></p>
+<p class="p1"><span class="s1">    {{ $built := . | minify }}</span></p>
+<p class="p1"><span class="s1">    {{ printf `&lt;link rel="stylesheet" href="%s"&gt;` $built.RelPermalink | safeHTML }}</span></p>
+<p class="p1"><span class="s1">  {{ end }}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  &lt;link rel="canonical" href="{{ .Permalink }}" /&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;title&gt;{{ .Title }}&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+</body>
+</html>
