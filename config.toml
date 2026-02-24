@@ -59,7 +59,7 @@ enableRobotsTXT = true
   name = "Posts"
   title = "Posts"
   url = "/posts/"
-  weight = 20
+  weight = 17
 
 [permalinks]
   posts =  "/:year/:month/:title/"
