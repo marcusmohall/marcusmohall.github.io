@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main id="content">
+  <h1>{{ .Title }}</h1>
+
+  {{/* Pull the body of _index.md (*.Description or full content)* /}}
+  <div class="intro">
+    {{ .Content }}
+  </div>
+
+  <h2>Guides</h2>
+  <ul>
+    <li><a href="/resources/gis-tips-for-students/">GIS Tips for Students</a></li>
+  </ul>
+</main>
+{{ end }}
