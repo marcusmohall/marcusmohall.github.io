@@ -1,6 +1,5 @@
 ---
 title: "Contact"
-menu: "main"
 description: "This page provides some basic contact details"
 ---
 
