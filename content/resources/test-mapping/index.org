@@ -12,7 +12,7 @@ Du hittar fillagret genom att klicka på den gula mappen nere i menyraden, klick
 
 När du arbetar med GIS-projekt finns det *tre* viktiga regler att hålla koll på:
 
-1) Fil- och mappnamn ska endast innehålla följande tecken: bokstäverna A-Z (även a-z går bra), siffror eller understreck. Tecken så som exempelvis bokstäverna Å, Ä och Ö, mellanslag eller tecken så som utropstecken (!), asterisk (*) eller procent (%) får inte användas. Användningen av sådana tecken kan leda till problem så som att filer inte går att spara eller att vissa GIS-analyser inte går att genomföra. 
+1) Fil- och mappnamn *ska endast innehålla följande tecken*: bokstäverna A-Z (även a-z går bra), siffror eller understreck. Tecken så som exempelvis bokstäverna Å, Ä och Ö, mellanslag eller tecken så som utropstecken (!), asterisk (*) eller procent (%) *får inte användas*. Användningen av sådana tecken kan leda till problem så som att filer inte går att spara eller att vissa GIS-analyser inte går att genomföra. 
 
 2) Fil- eller mappnamn måste inledas med en bokstav (A-Z). Inled inte fil- eller mappnamn med siffror eller understreck.
 
