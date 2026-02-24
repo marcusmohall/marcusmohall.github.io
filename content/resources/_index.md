@@ -1,5 +1,5 @@
 +++
-title = ""
+title = "Resources"
 description = "This page provides some resources for different things"
 +++
 
