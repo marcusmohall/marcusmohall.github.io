@@ -26,13 +26,6 @@ enableRobotsTXT = true
 #    url = "/about/"
 #    weight = 5
     
-#  [[menu.main]]
-#    identifier = "posts"
-#    name = "posts"
-#    title = "posts"
-#    url = "/posts/"
-#    weight = 10
-    
 #	[[menu.main]]
 #    identifier = "CV"
 #    name = "CV"
@@ -54,12 +47,12 @@ enableRobotsTXT = true
     url = "/publications/"
     weight = 15
 
-  [[menu.main]]
-  identifier = "Posts"
-  name = "Posts"
-  title = "Posts"
-  url = "/posts/"
-  weight = 17
+# [[menu.main]]
+#  identifier = "Posts"
+#  name = "Posts"
+#  title = "Posts"
+#  url = "/posts/"
+#  weight = 17
 
 [permalinks]
   posts =  "/:year/:month/:title/"
