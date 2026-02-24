@@ -1,3 +1,7 @@
+Some text here
+
 #+caption: A sample image
-#+attr_html: :width 600px :alt Sample photo
+#+attr_html: :width 300px :alt A record
 [[./skog.jpg]]
+
+And some more text here
