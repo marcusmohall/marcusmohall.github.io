@@ -1,3 +1,3 @@
 #+caption: A sample image
 #+attr_html: :width 600px :alt Sample photo
-[[./fjall.png]]
+[[./skog.jpg]]
