@@ -1,16 +1,29 @@
 {{ define "main" }}
 <main id="content">
   <h1>{{ .Title }}</h1>
-  <p>Section: {{ .Section }} | Pages in this section (recursive): {{ len .RegularPagesRecursive }}</p>
-  <ul>
-    {{ range .RegularPagesRecursive.ByDate.Reverse }}
-      <li>
-        {{ .RelPermalink }}{{ .Title }}</a>
-        <small> — {{ .Date.Format "2006-01-02" }}</small>
-      </li>
-    {{ else }}
-      <li><em>No posts found in this section.</em></li>
-    {{ end }}
-  </ul>
+
+  {{/* Iterate all regular pages under /posts/, newest first */}}
+  {{ range .RegularPagesRecursive.ByDate.Reverse }}
+
+    <article class="post-item">
+      <p class="post-date">
+        {{ .Date.Format "2006-01-02" }}
+      </p>
+
+      <h2 class="post-title">
+        {{ .Title }}
+      </h2>
+
+      <div class="post-body">
+        {{/* Render the full content on the list page */}}
+        {{ .Content }}
+      </div>
+    </article>
+
+    <hr class="post-sep"/>
+
+  {{ else }}
+    <p><em>No posts found.</em></p>
+  {{ end }}
 </main>
 {{ end }}
