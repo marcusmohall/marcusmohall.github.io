@@ -47,6 +47,13 @@ enableRobotsTXT = true
     url = "/publications/"
     weight = 15
 
+	[[menu.main]]
+    identifier = "Resources"
+    name = "Resources"
+    title = "Resources"
+    url = "/Resources/"
+    weight = 16
+
 # [[menu.main]]
 #  identifier = "Posts"
 #  name = "Posts"
