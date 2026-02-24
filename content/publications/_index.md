@@ -1,6 +1,7 @@
 ---
 title: "Publications"
 menu: "main"
+weight: 5
 description: "This page provides an overview of my publications, including both academic publications and public writing"
 ---
 
