@@ -2,7 +2,7 @@
 
 Some text here.
 
-{{< figure src="./saveproject.png" title="Figure 1. A sample image" width="300px" alt="Creating a new ArcGIS Pro project" >}}
+{{< figure src="./saveproject.png" title="Figure 1. A sample image" width="400px" alt="Creating a new ArcGIS Pro project" >}}
 
 And some more text here.
 
