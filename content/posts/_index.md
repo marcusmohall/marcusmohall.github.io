@@ -1,5 +1,5 @@
 ---
-title: "Posts"
+title: ""
 # Ensure the section itself renders as expected
 type: "post"
 cascade:

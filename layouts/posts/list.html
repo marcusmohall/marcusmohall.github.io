@@ -2,26 +2,25 @@
 <main id="content">
   <h1>{{ .Title }}</h1>
 
-  {{/* Iterate all regular pages under /posts/, newest first */}}
   {{ range .RegularPagesRecursive.ByDate.Reverse }}
-
-    <article class="post-item">
-      <p class="post-date">
+    <article>
+      <!-- Date: slightly smaller; tighter bottom margin -->
+      <p style="margin:0 0 .25rem 0; font-size:.9rem; opacity:.75;">
         {{ .Date.Format "2006-01-02" }}
       </p>
 
-      <h2 class="post-title">
+      <!-- Title: normal size; slightly reduced spacing below -->
+      <h2 style="margin:0 0 .75rem 0;">
         {{ .Title }}
       </h2>
 
-      <div class="post-body">
-        {{/* Render the full content on the list page */}}
+      <!-- Full body -->
+      <div>
         {{ .Content }}
       </div>
     </article>
 
-    <hr class="post-sep"/>
-
+    <hr style="border:0; border-top:1px solid #e0e0e0; margin:2rem 0;" />
   {{ else }}
     <p><em>No posts found.</em></p>
   {{ end }}
