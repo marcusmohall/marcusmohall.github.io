@@ -6,21 +6,21 @@
 Detta dokument innehåller vägledning och tips för användning av GIS-mjukvaran ArcGIS Pro, lagring av geodata samt användning av korrekt språkbruk och terminologi i GIS-labbrapporter och liknande dokument.
 
 ** 2. Hantera geodata och ArcGIS Pro-projekt
-Samtliga filer och projekt som du använder i ditt arbete med ArcGIS Pro ska du spara på det så kallade Fillagret som tillhandahålls av LiU för alla studenter och anställda. Information om Fillagret hittar du via denna länk. 
+Samtliga filer och projekt som du använder i ditt arbete med ArcGIS Pro ska du spara på det så kallade *Fillagret* som tillhandahålls av LiU för alla studenter och anställda. Information om Fillagret hittar du via denna länk.
 
 Du hittar fillagret genom att klicka på den gula mappen nere i menyraden, klicka på ”This PC/Den här datorn” och sedan på Ditt LiU-ID on fillager.liu.se (X:). Observera att OneDrive alltså inte ska användas för arbete med GIS.
 
 När du arbetar med GIS-projekt finns det *tre* viktiga regler att hålla koll på:
 
-1) Fil- och mappnamn *ska endast innehålla följande tecken*: bokstäverna A-Z (även a-z går bra), siffror eller understreck. Tecken så som exempelvis bokstäverna Å, Ä och Ö, mellanslag eller tecken så som utropstecken (!), asterisk (*) eller procent (%) *får inte användas*. Användningen av sådana tecken kan leda till problem så som att filer inte går att spara eller att vissa GIS-analyser inte går att genomföra. 
+1) Fil- och mappnamn *ska endast innehålla följande tecken*: bokstäverna A-Z (även a-z går bra), siffror eller understreck. Tecken så som exempelvis bokstäverna Å, Ä och Ö, mellanslag eller tecken så som utropstecken (!) eller procent (%) *får inte användas*. Användningen av sådana tecken kan leda till problem så som att filer inte går att spara eller att vissa GIS-analyser inte går att genomföra. 
 
-2) Fil- eller mappnamn måste inledas med en bokstav (A-Z). Inled inte fil- eller mappnamn med siffror eller understreck.
+2) Fil- eller mappnamn *måste* inledas med en bokstav (A-Z). Inled alltså inte fil- eller mappnamn med siffror eller understreck.
 
 3) När du arbetar med ett GIS-projekt ska du alltid separera filer som du använder dig av som har skapats av andra personer, så kallad originaldata, från de filer du själv skapar genom din användning av olika GIS-verktyg, så kallad output-data (mer om detta nedan).
 
 Konkret innebär detta att när du börjar arbeta med GIS inom ramen för en kurs bör du gå till väga på följande sätt:
 
-1) Skapa en så kallad rotmapp i din fillager-mapp. I denna mapp kommer du att spara allt som hör till kursen du för tillfället läser. Döp mappen till t.ex. ”GISHT2025” eller liknande.
+1) Skapa en så kallad rotmapp i din fillager-mapp. I denna mapp kommer du att spara allt som hör till kursen du för tillfället läser. Döp mappen till t.ex. ”GISHT2025” eller något liknande.
 
 2) I rotmappen du nyss har skapat skapar du (med hjälp av ArcGIS Pro) undermappar för kursens olika moment (se ”3. Starta upp ArcGIS Pro”). Till exempel kan du för den första GIS-övningen skapa en mapp som du döper till ”IntroGIS”. Till den första laborationen skapar du en mapp som du döper till ”Labb1” och så vidare.
 
