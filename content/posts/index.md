@@ -1,4 +1,7 @@
-+++
-title = "Posts"
-description = "Updates, notes, and posts"
-+++
+---
+title: "Posts"
+# Ensure the section itself renders as expected
+type: "post"
+cascade:
+  type: "post"
+---
