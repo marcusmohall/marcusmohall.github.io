@@ -5,4 +5,3 @@ description = "This page provides some resources for diferent things"
 
 Some info here about resources
 
-- [Writing Tips](/resources/writing-tips/)
