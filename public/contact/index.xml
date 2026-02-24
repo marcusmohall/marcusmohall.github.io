@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Marcus Mohall</title>
-    <link>https://marcusmohall.github.io/</link>
-    <description>Recent content in Home on Marcus Mohall</description>
+    <title>Contact on Marcus Mohall</title>
+    <link>https://marcusmohall.github.io/contact/</link>
+    <description>Recent content in Contact on Marcus Mohall</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 24 Feb 2026 06:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://marcusmohall.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marcusmohall.github.io/contact/index.xml" rel="self" type="application/rss+xml" />
     
     
     
