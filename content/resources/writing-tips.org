@@ -4,10 +4,8 @@ title: "Writing Tips"
 
 Text here, just a test. Using org-mode.
 
-
-#+BEGIN_QUOTE
+#+BEGIN_SRC markdown
 Some text here. In a code block.
-#+END_QUOTE
-
+#+END_SRC
 
 And some more text
