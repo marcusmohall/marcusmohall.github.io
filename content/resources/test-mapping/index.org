@@ -10,4 +10,4 @@ And some more text here.
 
 And some additional text here.
 
-Och text här på svenska.
+Och text här på svenska. Ett par ord till.
