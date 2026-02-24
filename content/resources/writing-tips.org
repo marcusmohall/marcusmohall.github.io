@@ -5,8 +5,8 @@ title: "Writing Tips"
 Text here, just a test. Using org-mode.
 
 
-#+begin_src markdown
+#+begin_div
 Some text here. In a code block.
-#+end_src
+#+end_div
 
 And some more text
