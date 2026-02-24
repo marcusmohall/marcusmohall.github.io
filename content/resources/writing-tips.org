@@ -3,3 +3,11 @@ title: "Writing Tips"
 ---
 
 Text here, just a test. Using org-mode.
+
+
+#+BEGIN_QUOTE
+Some text here
+In a code block
+#+END_QUOTE
+
+And some more text
