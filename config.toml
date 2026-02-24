@@ -33,26 +33,26 @@ enableRobotsTXT = true
 #    url = "/CV/"
 #    weight = 15
 
-	[[menu.main]]
-    identifier = "Contact"
-    name = "Contact"
-    title = "Contact"
-    url = "/contact/"
-    weight = 20
+[menu.main]]
+identifier = "Contact"
+name = "Contact"
+title = "Contact"
+url = "/contact/"
+weight = 20
 
-	[[menu.main]]
-    identifier = "Publications"
-    name = "Publications"
-    title = "Publications"
-    url = "/publications/"
-    weight = 15
+[[menu.main]]
+identifier = "Publications"
+name = "Publications"
+title = "Publications"
+url = "/publications/"
+weight = 15
 
-	[[menu.main]]
-    identifier = "Resources"
-    name = "Resources"
-    title = "Resources"
-    url = "/Resources/"
-    weight = 16
+[[menu.main]]
+identifier = "Resources"
+name = "Resources"
+title = "Resources"
+url = "/Resources/"
+weight = 16
 
 # [[menu.main]]
 #  identifier = "Posts"
