@@ -4,13 +4,13 @@
 
   {{ range .RegularPagesRecursive.ByDate.Reverse }}
     <article>
-      <!-- Date: slightly smaller; tighter bottom margin -->
-      <p style="margin:0 0 .25rem 0; font-size:.11rem; opacity:.75;">
+      <!-- Date -->
+      <p style="margin:0 0 .25rem 0; font-size:.7rem; opacity:.75;">
         {{ .Date.Format "2006-01-02" }}
       </p>
 
-      <!-- Title: normal size; slightly reduced spacing below -->
-      <h2 style="margin:0 0 .75rem 0;">
+      <!-- Title with explicit font size -->
+      <h2 style="margin:0 0 .75rem 0; font-size:1.8rem; line-height:1.25;">
         {{ .Title }}
       </h2>
 
@@ -21,8 +21,6 @@
     </article>
 
     <hr style="border:0; border-top:1px solid #e0e0e0; margin:2rem 0;" />
-  {{ else }}
-    <p><em>No posts found.</em></p>
   {{ end }}
 </main>
 {{ end }}
