@@ -15,7 +15,7 @@ enableRobotsTXT = true
   dark = "auto" # can also be "auto" 
   highlight = true
   date_format = "02 Jan 2006"
-  custom_CSS = ["css/custom.css"]
+  custom_css = ["css/custom.css"]
 
 [menu]
   
