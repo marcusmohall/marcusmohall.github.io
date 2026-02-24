@@ -1,6 +1,5 @@
 ---
 title: "Writing Tips"
-date: ""
 ---
 
-Text here
+Text here, just a test
