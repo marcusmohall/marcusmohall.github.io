@@ -1,9 +1,0 @@
-<nav>
-    <ul>
-        {{ range .Site.Menus.main.ByWeight }}
-        <li>
-            <a href="{{ .URL }}">{{ .Name | humanize }}</a>
-        </li>
-        {{ end }}
-    </ul>
-</nav>
