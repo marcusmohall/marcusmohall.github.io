@@ -12,12 +12,8 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{- end }}
 
-  {{/* ----------------------------
-       Build the theme stylesheet
-       (same logic as Etch original)
-     ---------------------------- */}}
+  {{/* Build the theme stylesheet (Etch original logic) */}}
   {{ $resources := slice -}}
-
   {{ $resources = $resources | append (resources.Get "css/main.css") -}}
   {{ $resources = $resources | append (resources.Get "css/min770px.css") -}}
 
@@ -31,14 +27,13 @@
   {{ end -}}
 
   {{ $css := $resources | resources.Concat "css/style.css" | minify -}}
-  {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
-  {{/* -------------------------------------------
-       ADDITION: load your custom overrides after
-       the theme CSS so they take precedence.
-       Place your file at assets/css/custom.css.
-     ------------------------------------------- */}}
-  <link rel="stylesheet" href="/css/custom.css?v=5">
+  {{/* ADDITION: build and include your custom CSS from assets/ */}}
+  {{ with resources.Get "css/custom.css" }}
+    {{ $custom := . | minify }}
+    <link rel="stylesheet" href="{{ $custom.RelPermalink }}">
+  {{ end }}
 
   <link rel="canonical" href="{{ .Permalink }}" />
   <title>{{ .Title }}</title>
