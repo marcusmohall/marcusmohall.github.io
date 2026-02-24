@@ -5,9 +5,9 @@ title: "Writing Tips"
 Text here, just a test. Using org-mode.
 
 
-#+BEGIN_QUOTE
+#+begin_src text
 Some text here
 In a code block
-#+END_QUOTE
+#+end_src
 
 And some more text
