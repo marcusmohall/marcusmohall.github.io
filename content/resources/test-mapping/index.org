@@ -1,7 +1,7 @@
+* Test mapping instructions
+
 Some text here
 
-#+caption: A sample image
-#+attr_html: :width 300px :alt A record
-[[./saveproject.png]]
+{{< figure src="./saveproject.png" title="A sample image" width="300px" alt="A record" >}}
 
 And some more text here
