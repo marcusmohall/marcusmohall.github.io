@@ -1,3 +1,6 @@
-#banner nav ul li a {
+#banner nav ul li a,
+header#banner nav ul li a,
+nav#banner ul li a,
+nav ul li a {
     text-transform: none !important;
 }
