@@ -1,13 +1,12 @@
 {{ define "main" }}
 <main id="content">
   <h1>{{ .Title }}</h1>
+  <p>Section: {{ .Section }} | Pages in this section (recursive): {{ len .RegularPagesRecursive }}</p>
   <ul>
-    {{/* Use RegularPagesRecursive to include all child pages/bundles */}}
     {{ range .RegularPagesRecursive.ByDate.Reverse }}
       <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ .RelPermalink }}{{ .Title }}</a>
         <small> — {{ .Date.Format "2006-01-02" }}</small>
-        {{ with .Summary }}<p>{{ . }}</p>{{ end }}
       </li>
     {{ else }}
       <li><em>No posts found in this section.</em></li>
