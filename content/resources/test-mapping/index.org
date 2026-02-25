@@ -5,12 +5,6 @@
 <h1 style="margin-bottom: 0.5em; font-size: 3.5rem;">Lathund för arbete med ArcGIS Pro</h1>
 #+END_EXPORT
 
-#+BEGIN_EXPORT html
-<div style="font-size: 1.1rem; color: #555; margin-top: -0.8em; margin-bottom: 1.5em;">
-  <em>Senast uppdaterad {{ .Lastmod.Format "2006-01-02 15:04" }}</em>
-</div>
-#+END_EXPORT
-
 Detta dokument innehåller vägledning och tips för användning av GIS-mjukvaran ArcGIS Pro, lagring av geodata samt användning av korrekt språkbruk och terminologi i labbrapporter och liknande texter.
 
 {{< toc >}}
