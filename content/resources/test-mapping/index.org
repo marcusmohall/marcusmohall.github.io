@@ -7,6 +7,9 @@
 
 Detta dokument innehåller vägledning och tips för användning av GIS-mjukvaran ArcGIS Pro, lagring av geodata samt användning av korrekt språkbruk och terminologi i labbrapporter och liknande texter.
 
+#+BEGIN_EXPORT html
+<h1 style="margin-bottom: 0.5em; font-size: 1.0rem;"></h1>
+#+END_EXPORT
 *Innehållsförteckning*
 {{< toc >}}
 
