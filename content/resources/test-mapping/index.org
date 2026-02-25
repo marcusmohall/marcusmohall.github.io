@@ -1,18 +1,17 @@
 #+title: Test Mapping
-#+OPTIONS: num:t
 
 Some intro text
 
 {{< toc >}}
 
-* Heading here
+* 1. Heading here
 
 ** And here
 
 
-* Lathund för ArcGIS Pro
+* 2. Lathund för ArcGIS Pro
 
-** Inledning
+** 2.1 Inledning
 Detta dokument innehåller vägledning och tips för användning av GIS-mjukvaran ArcGIS Pro, lagring av geodata samt användning av korrekt språkbruk och terminologi i labbrapporter och liknande texter/dokument.
 
 ** Hantera geodata och ArcGIS Pro-projekt
