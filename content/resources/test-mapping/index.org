@@ -1,5 +1,6 @@
 #+title: Test Mapping
 #+OPTIONS: html-style:inline
+#+OPTIONS: num:t
 
 #+BEGIN_EXPORT html
 <h1 style="margin-bottom: 0.5em; font-size: 3.5rem;">Lathund för arbete med ArcGIS Pro</h1>
