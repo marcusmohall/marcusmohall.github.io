@@ -2,10 +2,12 @@
 #+OPTIONS: html-style:inline
 
 #+BEGIN_EXPORT html
-<h1 style="margin-bottom: 0.5em; font-size: 3.5rem;">Lathund för arbete med ArcGIS Pro</h1>
+<h1 style="margin-bottom: 0.5em; font-size: 3.5rem;">Vägledning för GIS-analyser och geografisk visualisering</h1>
 #+END_EXPORT
 
-Detta dokument innehåller vägledning och tips för användning av GIS-mjukvaran ArcGIS Pro, lagring av geodata samt användning av korrekt språkbruk och terminologi i labbrapporter och liknande texter.
+Detta dokument innehåller vägledning och råd för genomförandet av GIS-analyser och geografisk visualisering (kartografi). Dokumentet innehåller även rådgivning rörande användningen av korrekt språkbruk och terminologi i labbrapporter och liknande texter.
+
+Dokumentet riktar sig i första hand till studenter på Linköpings universitet (LiU), där mjukvaran ArcGIS Pro används utförligt inom ramen för GIS-fokuserade kurser.
 
 #+BEGIN_EXPORT html
 <h1 style="margin-bottom: 0.5em; font-size: 1.0rem;">   </h1>
