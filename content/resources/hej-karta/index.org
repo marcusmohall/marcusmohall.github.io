@@ -1,5 +1,22 @@
 #+title: hej-karta
 #+OPTIONS: html-style:inline
+#+HUGO_BASE_DIR: ~/Dropbox/W/Resources/WebsiteMohall/mywebsite/marcusmohall
+#+HUGO_SECTION: resources/hej-karta
+#+OPTIONS: num:t
+
+* Introduction
+Some text.
+
+** Background
+Some text.
+
+** Purpose
+More text.
+
+* Details
+More details here.
+
+
 
 #+BEGIN_EXPORT html
 <h1 style="margin-bottom: 0.5em; font-size: 3.5rem;">Hej Karta</h1>
