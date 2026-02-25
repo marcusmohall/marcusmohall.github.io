@@ -53,9 +53,9 @@ Det bästa sättet att göra detta på är att kursivera namnet på de verktyg/t
 
 Skriv alltså exempelvis på följande sätt:
 
-#+BEGIN_SRC markdown
-”I den första delen av analysen skapade jag med verktyget Pairwise Buffer två buffrar med avståndet 500 respektive 1000 meter. Med verktyget Cost Path analyserade jag därefter med hjälp av dessa buffrar lämpliga lokaliseringar för dragningen av en ny väg. I Cost Path-verktyget valde jag under inställningarna för Path Type alternativet Each Zone”.
-#+END_SRC
+<p style="margin-top: 1.5em; margin-bottom: 1.5em; margin-left: 2em;">
+I den första delen av analysen skapade jag med verktyget Pairwise Buffer två buffrar med avståndet 500 respektive 1000 meter. Med verktyget Cost Path analyserade jag därefter med hjälp av dessa buffrar lämpliga lokaliseringar för dragningen av en ny väg. I Cost Path-verktyget valde jag under inställningarna för Path Type alternativet Each Zone.
+</p>
 
 ** 8.2. Korrekt användning av tempus
 Ett vanligt problem i GIS-labbrapporter och liknande texter är att olika tempus används när författaren ska redogöra för hur en analys har genomförts. En sådan felaktig tempusblandning kan bidra till en kraftig kvalitetssänkning av en i övrigt bra text. 
