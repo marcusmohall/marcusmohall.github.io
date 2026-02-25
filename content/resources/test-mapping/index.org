@@ -1,20 +1,10 @@
 #+title: Test Mapping
 
-Some intro text
+Detta dokument innehåller vägledning och tips för användning av GIS-mjukvaran ArcGIS Pro, lagring av geodata samt användning av korrekt språkbruk och terminologi i labbrapporter och liknande texter/dokument.
 
 {{< toc >}}
 
-* 1. Heading here
-
-** And here
-
-
-* 2. Lathund för ArcGIS Pro
-
-** 2.1 Inledning
-Detta dokument innehåller vägledning och tips för användning av GIS-mjukvaran ArcGIS Pro, lagring av geodata samt användning av korrekt språkbruk och terminologi i labbrapporter och liknande texter/dokument.
-
-** Hantera geodata och ArcGIS Pro-projekt
+* 1. Hantera geodata och ArcGIS Pro-projekt
 Samtliga filer och projekt som du använder i ditt arbete med ArcGIS Pro ska du spara på det så kallade *Fillagret* som tillhandahålls av LiU för alla studenter och anställda. Information om Fillagret hittar du via denna länk.
 
 Du hittar fillagret genom att klicka på den gula mappen nere i menyraden, klicka på ”This PC/Den här datorn” och sedan på Ditt LiU-ID on fillager.liu.se (X:). Observera att OneDrive alltså inte ska användas för arbete med GIS.[1]
@@ -34,13 +24,24 @@ Konkret innebär detta att när du börjar arbeta med GIS inom ramen för en kur
 2) I rotmappen du nyss har skapat skapar du (med hjälp av ArcGIS Pro) undermappar för kursens olika moment (se ”3. Starta upp ArcGIS Pro”). Till exempel kan du för den första GIS-övningen skapa en mapp som du döper till ”IntroGIS”. Till den första laborationen skapar du en mapp som du döper till ”Labb1” och så vidare.
 
 
-** Starta upp ArcGIS Pro
+* 2. Starta upp ArcGIS Pro
+Starta ArcGIS Pro. Starta ett nytt projekt genom att klicka på Map (se figur 1). Namnge projektet i rutan Name (följ noga reglerna som anges under ”2. Hantera ArcGIS Pro-projekt och geodata”). Om det är det första projektet du skapar kan du exempelvis kalla det för ”IntroGIS”.
 
-Some text here.
+Under Location väljer du en mapp på ditt fillager. Se till att rutan Create a new folder for this project är ikryssad.[3] Tryck därefter på den gula mappsymbolen. Leta upp rotmappen där du vill spara ditt projekt (se ” 2. Spara och hantera ArcGIS Pro-projekt och geodata”). Se till att mappen är markerad och tryck på ”OK”.
+
+Du har nu skapat ett Map Document (en aprx-fil). Filen innehåller dock inga data utan bara sökvägar till dem och om du flyttar filen så kommer länken till datan att brytas.
 
 {{< figure src="./saveproject.png" title="Figure 1. Creating a new ArcGIS Pro project" width="400px" alt="Creating a new ArcGIS Pro project" >}}
+
+I mappen för respektive kursmoment skapar du en mapp som du döper till ”originaldata”. Detta kan du göra direkt i Utforskaren i Windows (standardfunktionen för att hantera filer och mappar). I denna mapp sparar du data som du ska använda dig av i momentet som har tagits fram av någon annan, alltså exempelvis data du laddar ner från Lisam eller SLU:s geodatatjänst.
+
+Denna typ originaldata ska du aldrig själva ändra i. Om du ändrar denna data, till exempel genom att skapa en ny fil genom användningen av ett GIS-verktyg (t.ex. Buffer) ska du spara de nya filerna i geodatabasen som hör till ditt ArcGIS Pro-projekt (detta alternativ är vanligtvis förvalt i ArcGIS Pro). Alternativt kan du om du vill spara dessa filer i en separat mapp som du skapar och döper till ”outputdata”.
+
+Geodata levereras oftast i ”zippat” format. Zippade filer måste extraheras innan de går att använda. Extrahera mappar du har laddat ned genom att högerklicka på mappen och klicka på ”Extrahera här”.
 
 * Fotnoter
 1. ESRI, företaget som står bakom ArcGIS Pro, avråder explicit från att använda OneDrive på grund av att användning av den här typen av molnlagring kan leda till problem så som att filer försvinner eller inte går att öppna.
 
 2. Orsaken till detta är bland annat att GIS-verktyg och liknande avancerad programvara fortfarande i stor utsträckning av historiska skäl är anpassade efter amerikanska/engelskspråkiga förhållanden där tecken så som Å-Ö inte används.
+
+3. Detta gör att ArcGIS skapar en egen mapp på den plats som du väljer under Location där allt ditt arbete i projektet kommer att sparas. Mappen kommer då automatiskt att inkludera en egen geodatabas, platsen där dina filer ska sparas för att vara på samma plats och i fungerande format.
