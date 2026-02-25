@@ -1,3 +1,32 @@
 #banner nav a {
     text-transform: none !important;
 }
+
+/* Automatic heading numbering */
+
+/* Reset counters */
+body {
+  counter-reset: h2counter;
+}
+
+h1 {
+  counter-reset: h2counter;
+}
+
+/* H2 numbering: 1, 2, 3… */
+h2::before {
+  counter-increment: h2counter;
+  content: counter(h2counter) ". ";
+  margin-right: 0.3em;
+}
+
+/* H3 numbering: 1.1, 1.2, etc */
+h2 {
+  counter-reset: h3counter;
+}
+
+h3::before {
+  counter-increment: h3counter;
+  content: counter(h2counter) "." counter(h3counter) ". ";
+  margin-right: 0.3em;
+}
