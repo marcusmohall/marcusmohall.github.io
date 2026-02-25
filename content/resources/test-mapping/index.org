@@ -17,11 +17,11 @@ Detta dokument innehåller vägledning och tips för användning av GIS-mjukvara
 ** Hantera geodata och ArcGIS Pro-projekt
 Samtliga filer och projekt som du använder i ditt arbete med ArcGIS Pro ska du spara på det så kallade *Fillagret* som tillhandahålls av LiU för alla studenter och anställda. Information om Fillagret hittar du via denna länk.
 
-Du hittar fillagret genom att klicka på den gula mappen nere i menyraden, klicka på ”This PC/Den här datorn” och sedan på Ditt LiU-ID on fillager.liu.se (X:). Observera att OneDrive alltså inte ska användas för arbete med GIS.
+Du hittar fillagret genom att klicka på den gula mappen nere i menyraden, klicka på ”This PC/Den här datorn” och sedan på Ditt LiU-ID on fillager.liu.se (X:). Observera att OneDrive alltså inte ska användas för arbete med GIS.[1]
 
 När du arbetar med GIS-projekt finns det *tre* viktiga regler att hålla koll på:
 
-1) Fil- och mappnamn *ska endast innehålla följande tecken*: bokstäverna A-Z (även a-z går bra), siffror eller understreck. Tecken så som exempelvis bokstäverna Å, Ä och Ö, mellanslag eller tecken så som utropstecken (!) eller procent (%) *får inte användas*. Användningen av sådana tecken kan leda till problem så som att filer inte går att spara eller att vissa GIS-analyser inte går att genomföra. 
+1) Fil- och mappnamn *ska endast innehålla följande tecken*: bokstäverna A-Z (även a-z går bra), siffror eller understreck. Tecken så som exempelvis bokstäverna Å, Ä och Ö, mellanslag eller tecken så som utropstecken (!) eller procent (%) *får inte användas*. Användningen av sådana tecken kan leda till problem så som att filer inte går att spara eller att vissa GIS-analyser inte går att genomföra.[2]
 
 2) Fil- eller mappnamn *måste* inledas med en bokstav (A-Z). Inled alltså inte fil- eller mappnamn med siffror eller understreck.
 
@@ -40,8 +40,7 @@ Some text here.
 
 {{< figure src="./saveproject.png" title="Figure 1. Creating a new ArcGIS Pro project" width="400px" alt="Creating a new ArcGIS Pro project" >}}
 
-And some more text here.
+* Fotnoter
+1. ESRI, företaget som står bakom ArcGIS Pro, avråder explicit från att använda OneDrive på grund av att användning av den här typen av molnlagring kan leda till problem så som att filer försvinner eller inte går att öppna.
 
-And some additional text here.
-
-Och text här på svenska. Ett par ord till.
+2. Orsaken till detta är bland annat att GIS-verktyg och liknande avancerad programvara fortfarande i stor utsträckning av historiska skäl är anpassade efter amerikanska/engelskspråkiga förhållanden där tecken så som Å-Ö inte används.
