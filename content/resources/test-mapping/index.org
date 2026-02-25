@@ -32,8 +32,7 @@ Konkret innebär detta att när du börjar arbeta med GIS inom ramen för en kur
 
 1) Skapa en så kallad rotmapp i din fillager-mapp. I denna mapp kommer du att spara allt som hör till kursen du för tillfället läser. Döp mappen till t.ex. ”GISHT2025” eller något liknande.
 
-2) I rotmappen du nyss har skapat skapar du (med hjälp av ArcGIS Pro) undermappar för kursens olika moment (se ”3. Starta upp ArcGIS Pro”). Till exempel kan du för den första GIS-övningen skapa en mapp som du döper till ”IntroGIS”. Till den första laborationen skapar du en mapp som du döper till ”Labb1” och så vidare.
-
+2) I rotmappen du nyss har skapat skapar du (med hjälp av ArcGIS Pro) efter hand undermappar för kursens olika moment (se det nedanstående avsnittet ”Starta upp ArcGIS Pro”). Till exempel skapar du för den första GIS-övningen en mapp som du döper till ”IntroGIS”. Till den första laborationen skapar du en mapp som du döper till ”Labb1” och så vidare.
 
 * Starta upp ArcGIS Pro
 Starta ArcGIS Pro. Starta ett nytt projekt genom att klicka på Map (se figur 1). Namnge projektet i rutan Name (följ noga reglerna som anges under ”2. Hantera ArcGIS Pro-projekt och geodata”). Om det är det första projektet du skapar kan du exempelvis kalla det för ”IntroGIS”.
@@ -42,7 +41,7 @@ Under Location väljer du en mapp på ditt fillager. Se till att rutan Create a 
 
 Du har nu skapat ett Map Document (en aprx-fil). Filen innehåller dock inga data utan bara sökvägar till dem och om du flyttar filen så kommer länken till datan att brytas.
 
-{{< figure src="./saveproject.png" title="Figure 1. Creating a new ArcGIS Pro project" width="400px" alt="Creating a new ArcGIS Pro project" >}}
+{{< figure src="./saveproject.png" title="Figur 1. Skapandet av ett nytt ArcGIS Pro-projekt" width="400px" alt="Creating a new ArcGIS Pro project" >}}
 
 I mappen för respektive kursmoment skapar du en mapp som du döper till ”originaldata”. Detta kan du göra direkt i Utforskaren i Windows (standardfunktionen för att hantera filer och mappar). I denna mapp sparar du data som du ska använda dig av i momentet som har tagits fram av någon annan, alltså exempelvis data du laddar ner från Lisam eller SLU:s geodatatjänst.
 
