@@ -1,15 +1,10 @@
-#+title: Test Mapping
-#+OPTIONS: html-style:inline
-
-#+BEGIN_EXPORT html
-<h1 style="margin-bottom: 0.5em; font-size: 3.5rem;">Lathund för arbete med ArcGIS Pro</h1>
-#+END_EXPORT
+Test2222
 
 Detta dokument innehåller vägledning och tips för användning av GIS-mjukvaran ArcGIS Pro, lagring av geodata samt användning av korrekt språkbruk och terminologi i labbrapporter och liknande texter.
 
 {{< toc >}}
 
-* 1. Hantera geodata och ArcGIS Pro-projekt
+# Hantera geodata och ArcGIS Pro-projekt
 Samtliga filer och projekt som du använder i ditt arbete med ArcGIS Pro ska du spara på det så kallade *Fillagret* som tillhandahålls av LiU för alla studenter och anställda. Information om Fillagret hittar du via denna länk.
 
 Du hittar fillagret genom att klicka på den gula mappen nere i menyraden, klicka på ”This PC/Den här datorn” och sedan på Ditt LiU-ID on fillager.liu.se (X:). Observera att OneDrive alltså inte ska användas för arbete med GIS.[1]
@@ -29,7 +24,7 @@ Konkret innebär detta att när du börjar arbeta med GIS inom ramen för en kur
 2) I rotmappen du nyss har skapat skapar du (med hjälp av ArcGIS Pro) undermappar för kursens olika moment (se ”3. Starta upp ArcGIS Pro”). Till exempel kan du för den första GIS-övningen skapa en mapp som du döper till ”IntroGIS”. Till den första laborationen skapar du en mapp som du döper till ”Labb1” och så vidare.
 
 
-* 2. Starta upp ArcGIS Pro
+# Starta upp ArcGIS Pro
 Starta ArcGIS Pro. Starta ett nytt projekt genom att klicka på Map (se figur 1). Namnge projektet i rutan Name (följ noga reglerna som anges under ”2. Hantera ArcGIS Pro-projekt och geodata”). Om det är det första projektet du skapar kan du exempelvis kalla det för ”IntroGIS”.
 
 Under Location väljer du en mapp på ditt fillager. Se till att rutan Create a new folder for this project är ikryssad.[3] Tryck därefter på den gula mappsymbolen. Leta upp rotmappen där du vill spara ditt projekt (se ” 2. Spara och hantera ArcGIS Pro-projekt och geodata”). Se till att mappen är markerad och tryck på ”OK”.
@@ -44,25 +39,23 @@ Denna typ originaldata ska du aldrig själva ändra i. Om du ändrar denna data,
 
 Geodata levereras oftast i ”zippat” format. Zippade filer måste extraheras innan de går att använda. Extrahera mappar du har laddat ned genom att högerklicka på mappen och klicka på ”Extrahera här”.
 
-* 8. Rådgivning om terminologi och språkbruk i GIS-analyser
+# Rådgivning om terminologi och språkbruk i GIS-analyser
 I labbrapporter, projektarbeten och liknande texter som redogör för användningen av och resultat från GIS-baserade analyser finns det vissa utmaningar rörande användningen av korrekt språkbruk och terminologi.
 
-** 8.1. Korrekt användning av engelska begrepp
+## Korrekt användning av engelska begrepp
 ArcGIS Pro är de flesta andra tekniskt avancerade datorprogram ett i första hand engelskspråkigt program. När vi skriver t.ex. labbrapporter på svenska och ska redogöra för användningen av GIS-verktyg med engelska namn är det viktigt att göra detta på ett konsekvent och tydligt sätt. 
 Det bästa sättet att göra detta på är att kursivera namnet på de verktyg/tillvägagångssätt med engelska namn som har använts och ska refereras till i texten.
 
 Skriv alltså exempelvis på följande sätt:
 
-#+BEGIN_SRC markdown
 ”I den första delen av analysen skapade jag med verktyget Pairwise Buffer två buffrar med avståndet 500 respektive 1000 meter. Med verktyget Cost Path analyserade jag därefter med hjälp av dessa buffrar lämpliga lokaliseringar för dragningen av en ny väg. I Cost Path-verktyget valde jag under inställningarna för Path Type alternativet Each Zone”.
-#+END_SRC
 
-** 8.2. Korrekt användning av tempus
+## Korrekt användning av tempus
 Ett vanligt problem i GIS-labbrapporter och liknande texter är att olika tempus används när författaren ska redogöra för hur en analys har genomförts. En sådan felaktig tempusblandning kan bidra till en kraftig kvalitetssänkning av en i övrigt bra text. 
 
 En start rekommendation är att du när du beskriver hur analyserna har genomförts använder dig av tempusformen preterium. Ett exempel på hur detta kan se ut hittar du i avsnittet ovan (8.1).
 
-* Fotnoter
+# Fotnoter
 1. ESRI, företaget som står bakom ArcGIS Pro, avråder explicit från att använda OneDrive på grund av att användning av den här typen av molnlagring kan leda till problem så som att filer försvinner eller inte går att öppna.
 
 2. Orsaken till detta är bland annat att GIS-verktyg och liknande avancerad programvara fortfarande i stor utsträckning av historiska skäl är anpassade efter amerikanska/engelskspråkiga förhållanden där tecken så som Å-Ö inte används.
