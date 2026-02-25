@@ -61,7 +61,7 @@ Skriv alltså exempelvis på följande sätt:
 
 #+BEGIN_EXPORT html
 <p style="margin-top: 1.5em; margin-bottom: 1.5em; margin-left: 2em;">
-I den första delen av analysen skapade jag med verktyget <b>Pairwise Buffer</b> två buffrar med avståndet 500 respektive 1000 meter. Med verktyget Cost Path analyserade jag därefter med hjälp av dessa buffrar lämpliga lokaliseringar för dragningen av en ny väg. I Cost Path-verktyget valde jag under inställningarna för Path Type alternativet Each Zone.
+I den första delen av analysen skapade jag med verktyget <i>Pairwise Buffer</i> två buffrar med avståndet 500 respektive 1000 meter. Med verktyget Cost Path analyserade jag därefter med hjälp av dessa buffrar lämpliga lokaliseringar för dragningen av en ny väg. I Cost Path-verktyget valde jag under inställningarna för Path Type alternativet Each Zone.
 </p>
 #+END_EXPORT
 
@@ -72,7 +72,7 @@ En stark rekommendation är att du när du beskriver hur analyserna har genomfö
 
 #+BEGIN_EXPORT html
 <p style="margin-top: 1.5em; margin-bottom: 1.5em; margin-left: 2em;">
-I den första delen av analysen skapade jag med verktyget <b>Pairwise Buffer</b> två buffrar med avståndet 500 respektive 1000 meter. Med verktyget Cost Path analyserade jag därefter med hjälp av dessa buffrar lämpliga lokaliseringar för dragningen av en ny väg. I Cost Path-verktyget valde jag under inställningarna för Path Type alternativet Each Zone.
+I den första delen av analysen skapade jag med verktyget <i>Pairwise Buffer</i> två buffrar med avståndet 500 respektive 1000 meter. Med verktyget Cost Path analyserade jag därefter med hjälp av dessa buffrar lämpliga lokaliseringar för dragningen av en ny väg. I Cost Path-verktyget valde jag under inställningarna för Path Type alternativet Each Zone.
 </p>
 #+END_EXPORT
 
