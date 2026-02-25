@@ -2,7 +2,6 @@
 #+OPTIONS: html-style:inline
 #+HUGO_BASE_DIR: ~/Dropbox/W/Resources/WebsiteMohall/mywebsite/marcusmohall
 #+HUGO_SECTION: resources/hej-karta
-#+hugo_export_with_section_numbers: t
 #+OPTIONS: num:t
 
 * Introduction
