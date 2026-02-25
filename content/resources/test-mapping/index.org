@@ -55,20 +55,26 @@ I labbrapporter, projektarbeten och liknande texter som redogör för användnin
 
 ** Korrekt användning av engelska begrepp
 ArcGIS Pro är de flesta andra tekniskt avancerade datorprogram ett i första hand engelskspråkigt program. När vi skriver t.ex. labbrapporter på svenska och ska redogöra för användningen av GIS-verktyg med engelska namn är det viktigt att göra detta på ett konsekvent och tydligt sätt. 
-Det bästa sättet att göra detta på är att kursivera namnet på de verktyg/tillvägagångssätt med engelska namn som har använts och ska refereras till i texten.
+Det bästa sättet att göra detta på är att *kursivera* namnet på de verktyg/tillvägagångssätt med engelska namn som har använts och ska refereras till i texten.
 
 Skriv alltså exempelvis på följande sätt:
 
 #+BEGIN_EXPORT html
 <p style="margin-top: 1.5em; margin-bottom: 1.5em; margin-left: 2em;">
-I den första delen av analysen skapade jag med verktyget Pairwise Buffer två buffrar med avståndet 500 respektive 1000 meter. Med verktyget Cost Path analyserade jag därefter med hjälp av dessa buffrar lämpliga lokaliseringar för dragningen av en ny väg. I Cost Path-verktyget valde jag under inställningarna för Path Type alternativet Each Zone.
+I den första delen av analysen skapade jag med verktyget <b>Pairwise Buffer</b> två buffrar med avståndet 500 respektive 1000 meter. Med verktyget Cost Path analyserade jag därefter med hjälp av dessa buffrar lämpliga lokaliseringar för dragningen av en ny väg. I Cost Path-verktyget valde jag under inställningarna för Path Type alternativet Each Zone.
 </p>
 #+END_EXPORT
 
 ** Korrekt användning av tempus
-Ett vanligt problem i GIS-labbrapporter och liknande texter är att olika tempus används när författaren ska redogöra för hur en analys har genomförts. En sådan felaktig tempusblandning kan bidra till en kraftig kvalitetssänkning av en i övrigt bra text. 
+Ett vanligt problem i GIS-labbrapporter och liknande texter är att olika tempus används när författaren ska redogöra för hur en analys har genomförts. En sådan felaktig tempusblandning kan kraftigt sänka kvaliteten på en i övrigt bra text. 
 
-En start rekommendation är att du när du beskriver hur analyserna har genomförts använder dig av tempusformen preterium. Ett exempel på hur detta kan se ut hittar du i avsnittet ovan (8.1).
+En stark rekommendation är att du när du beskriver hur analyserna har genomförts använder dig av tempusformen *preterium*. Denna tempusform användes i citatet här ovan; du bör alltså skriva på följande sätt:
+
+#+BEGIN_EXPORT html
+<p style="margin-top: 1.5em; margin-bottom: 1.5em; margin-left: 2em;">
+I den första delen av analysen skapade jag med verktyget <b>Pairwise Buffer</b> två buffrar med avståndet 500 respektive 1000 meter. Med verktyget Cost Path analyserade jag därefter med hjälp av dessa buffrar lämpliga lokaliseringar för dragningen av en ny väg. I Cost Path-verktyget valde jag under inställningarna för Path Type alternativet Each Zone.
+</p>
+#+END_EXPORT
 
 * Fotnoter
 1. ESRI, företaget som står bakom ArcGIS Pro, avråder explicit från att använda OneDrive på grund av att användning av den här typen av molnlagring kan leda till problem så som att filer försvinner eller inte går att öppna.
