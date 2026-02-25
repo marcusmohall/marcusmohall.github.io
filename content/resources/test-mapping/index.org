@@ -68,7 +68,7 @@ I den första delen av analysen skapade jag med verktyget <i>Pairwise Buffer</i>
 ** Korrekt användning av tempus
 Ett vanligt problem i GIS-labbrapporter och liknande texter är att olika tempus används när författaren ska redogöra för hur en analys har genomförts. En sådan felaktig tempusblandning kan kraftigt sänka kvaliteten på en i övrigt bra text. 
 
-En stark rekommendation är att du när du beskriver hur analyserna har genomförts använder dig av tempusformen *preterium*. Denna tempusform användes i citatet här ovan; du bör alltså skriva på följande sätt:
+En stark rekommendation är att du när du beskriver hur analyserna har genomförts använder dig av tempusformen *preterium*. Denna tempusform används i stycket som citeras i avsnittet ovan. Du bör alltså skriva på följande sätt:
 
 #+BEGIN_EXPORT html
 <p style="margin-top: 1.5em; margin-bottom: 1.5em; margin-left: 2em;">
