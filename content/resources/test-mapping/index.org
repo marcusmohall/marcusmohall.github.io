@@ -1,6 +1,9 @@
 #+title: Test Mapping
+#+OPTIONS: html-style:inline
 
-* Lathund för arbete med ArcGIS Pro
+#+BEGIN_EXPORT html
+<h1 class="page-title">Lathund för arbete med ArcGIS Pro</h1>
+#+END_EXPORT
 
 Detta dokument innehåller vägledning och tips för användning av GIS-mjukvaran ArcGIS Pro, lagring av geodata samt användning av korrekt språkbruk och terminologi i labbrapporter och liknande texter/dokument.
 
