@@ -5,6 +5,8 @@ description: "This page provides an overview of my publications, including both 
 
 ### Academic publications
 
+Mohall, M. (forthcoming). The freedom and unfreedom of mobility: transport justice and its discontents in metro Atlanta’s transit struggles. Accepted for publication in _Mobility Humanities_.
+
 Mohall, M., & Magnusson, D. (2026). Everything Counts: Low-Carbon Neighborhoods, Carbon Accounting, and the Transformation of Planning in the Era of Climate Urbanism. _Planning Theory & Practice_. [Link](https://doi.org/10.1080/14649357.2025.2604491)
 
 Richard, Å., Mohall, M., & Molina, I. (2025). Capturing Displacement: A Dialectical Mixed-Methods Approach to the Study of Renoviction—A Case from Sweden. _International Journal of Urban and Regional Research_, 49(4), 852–875. [Link](https://doi.org/10.1111/1468-2427.13318)

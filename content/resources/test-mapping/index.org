@@ -28,7 +28,7 @@ När du arbetar med GIS-projekt finns det *tre* viktiga regler att hålla koll p
 
 3) När du arbetar med ett GIS-projekt ska du alltid separera filer som du använder dig av som har skapats av andra personer, så kallad originaldata, från de filer du själv skapar genom din användning av olika GIS-verktyg, så kallad output-data (mer om detta nedan).
 
-Konkret innebär detta att när du börjar arbeta med GIS inom ramen för en kurs bör du gå till väga på följande sätt:
+Konkret innebär detta att när du börjar arbeta med GIS inom ramen för en kurs *bör du gå till väga på följande sätt*:
 
 1) Skapa en så kallad rotmapp i din fillager-mapp. I denna mapp kommer du att spara allt som hör till kursen du för tillfället läser. Döp mappen till t.ex. ”GISHT2025” eller något liknande.
 
@@ -54,7 +54,7 @@ I labbrapporter, projektarbeten och liknande texter som redogör för användnin
 
 ** Korrekt användning av engelska begrepp
 ArcGIS Pro är de flesta andra tekniskt avancerade datorprogram ett i första hand engelskspråkigt program. När vi skriver t.ex. labbrapporter på svenska och ska redogöra för användningen av GIS-verktyg med engelska namn är det viktigt att göra detta på ett konsekvent och tydligt sätt. 
-Det bästa sättet att göra detta på är att *kursivera* namnet på de verktyg/tillvägagångssätt med engelska namn som har använts och ska refereras till i texten.
+Det bästa sättet att göra detta på är att *kursivera* namnet på de verktyg med engelska namn som har använts och ska refereras till i texten.
 
 Skriv alltså exempelvis på följande sätt:
 
