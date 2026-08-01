@@ -8,7 +8,7 @@ description: "This page provides an overview of my publications, including both 
 Mohall, M. (2026). Making the post-neoliberal city? Vallastaden and the limits and prospects of moderately heterodox initiatives to transcend hegemonic planning practices. _City_, 1-24. 
 https://doi.org/10.1080/13604813.2026.2678717
 
-Mohall, M. (2026). The Freedom and Unfreedom of Mobility: Transport Justice and Its Discontents in Metro Atlanta’s Transit Struggles. Mobility Humanities, 5(2), 35–54. https://doi.org/10.23090/MH.2026.07.5.2.003
+Mohall, M. (2026). The Freedom and Unfreedom of Mobility: Transport Justice and Its Discontents in Metro Atlanta’s Transit Struggles. _Mobility Humanities_, 5(2), 35–54. https://doi.org/10.23090/MH.2026.07.5.2.003
 
 Mohall, M., & Magnusson, D. (2026). Everything Counts: Low-Carbon Neighborhoods, Carbon Accounting, and the Transformation of Planning in the Era of Climate Urbanism. _Planning Theory & Practice_, 27(1), 13–30. [https://doi.org/10.1080/14649357.2025.2604491](https://doi.org/10.1080/14649357.2025.2604491)
 
