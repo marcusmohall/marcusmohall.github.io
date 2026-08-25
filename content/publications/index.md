@@ -5,8 +5,7 @@ description: "This page provides an overview of my publications, including both 
 
 ### Academic publications
 
-Mohall, M. (2026). Making the post-neoliberal city? Vallastaden and the limits and prospects of moderately heterodox initiatives to transcend hegemonic planning practices. _City_, 1-24. 
-https://doi.org/10.1080/13604813.2026.2678717
+Mohall, M. (2026). Making the post-neoliberal city? Vallastaden and the limits and prospects of moderately heterodox initiatives to transcend hegemonic planning practices. _City_, 30(3–4), 778–801. https://doi.org/10.1080/13604813.2026.2678717
 
 Mohall, M. (2026). The Freedom and Unfreedom of Mobility: Transport Justice and Its Discontents in Metro Atlanta’s Transit Struggles. _Mobility Humanities_, 5(2), 35–54. https://doi.org/10.23090/MH.2026.07.5.2.003
 
